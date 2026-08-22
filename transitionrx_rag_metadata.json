@@ -1,0 +1,20 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "generation_model": "gpt-4o",
+  "n_documents": 6,
+  "n_chunks": 1408,
+  "chunk_size": 900,
+  "chunk_overlap": 150,
+  "min_similarity": 0.25,
+  "max_per_source": 2,
+  "sources": [
+    "2026_CBM_FAQ.pdf",
+    "42 CFR 482.43 (up to date as of 8-20-2026).pdf",
+    "July2026-Readmission-HUG.pdf",
+    "health-literacy-toolkit-third-edition.pdf",
+    "match.pdf",
+    "redtoolkit.pdf"
+  ],
+  "retrieval_hit_at_3": 0.6,
+  "mean_groundedness": 0.49750000000000005
+}
